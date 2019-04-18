@@ -21,7 +21,7 @@ const tronWeb = new TronWeb(fullNode, solidityNode, eventServer, privateKey);
 
 tronWeb.setAddress(''); //Enter Address of your account
 
-let contractAddress = '' //Enter Your Smart Contract Contract Address
+let contractAddress = '' //Enter Your Smart Contract Address
 let abi = [{"constant":false,"inputs":[{"name":"value","type":"string"}],"name":"postMessage","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"getMessage","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"}]
 
 let instance = tronWeb.contract(abi, contractAddress);
