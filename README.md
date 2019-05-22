@@ -4,7 +4,7 @@ Tron is an open source blockchain platform that lets developers build smart cont
 
 ## Getting Started
 
-For building Tron decentralized application you need deploy smart contract onto Tron Network. See this [tutorial](https://medium.com/) for detailed guide on how to deploy the smart contract on a Tron network and run node application.
+For building Tron decentralized application you need deploy smart contract onto Tron Network. See this [tutorial](https://www.yudiz.com/build-your-first-dapp-on-tron-blockchain/) for detailed guide on how to deploy the smart contract on a Tron network and run node application.
 
 ### Prerequisites
 
